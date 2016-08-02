@@ -3,9 +3,9 @@
 This project contains different configurations for [JSHint](http://jshint.com/docs/) for different tools. It will allow automatically watch your code and make the validation on the fly.
 
 
-### [Install](#install)
-### [Configuration for Gulp](#configuration-for-gulp)
-### [Code styles](#code-styles)
+#### [Install](#install)
+#### [Configuration for Gulp](#configuration-for-gulp)
+#### [Code styles](#code-styles)
 
 
 # Install
@@ -39,4 +39,4 @@ Process and results of the validation you will see in the terminal
 
 
 
-Dunice (c)
+### Dunice (c)
