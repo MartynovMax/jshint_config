@@ -3,9 +3,9 @@
 This project contains different configurations for [JSHint](http://jshint.com/docs/) for different tools. It will allow automatically watch your code and make the validation on the fly.
 
 
-## [Install](#install)
-## [Configuration for Gulp](#configuration-for-gulp)
-## [Code styles](#code-styles)
+### [Install](#install)
+### [Configuration for Gulp](#configuration-for-gulp)
+### [Code styles](#code-styles)
 
 
 # Install
@@ -36,3 +36,7 @@ Process and results of the validation you will see in the terminal
 2. [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
 3. [Felix's Node.js Style Guide](http://nodeguide.com/style.html)
 4. [Angular Style Guide](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md)
+
+
+
+Dunice (c)
