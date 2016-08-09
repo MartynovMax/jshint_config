@@ -1,6 +1,8 @@
 # jshint configuration
 
-This project contains different configurations for [JSHint](http://jshint.com/docs/) for different tools. It will allow automatically watch your code and make the validation on the fly.
+This project contains different configurations for 
+[JSHint](http://jshint.com/docs/) for different tools. 
+It will allow automatically watch your code and make the validation on the fly.
 
 
 #### [Install](#install)
@@ -17,17 +19,19 @@ Copy .jshintrc file to your project to start
 
 ## Install
 ```
-npm install --save-dev gulp gulp-jshint jshint jshint-stylish gulp-watch
+npm install --save-dev gulp gulp-jshint jshint jshint-stylish gulp-watch gulp-cached 
 ```
 
-Copy file './gulp/gulpfile.js' to your project, or just add the code from this file to your gulpfile.js if it is already exists
+Copy file './gulp/gulpfile.js' to your project, or just add the 
+code from this file to your gulpfile.js if it is already exists
 
 Run watch task:
 ```
 gulp watch
 ```
 
-Process and results of the validation you will see in the terminal
+Process and results of the validation you will see in the terminal.
+You will see warnings only for files which was changed.
 
 
 

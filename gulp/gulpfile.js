@@ -4,6 +4,7 @@ var gulp   = require('gulp');
 
 var jshint = require('gulp-jshint');
 var watch  = require('gulp-watch');
+var cache  = require('gulp-cached');
 
 
 var PATHS = {
@@ -23,8 +24,10 @@ gulp.task('watch', ['lint'], function () {
 });
 
 
-gulp.task('lint', function () {
+
+gulp.task('lint', function(){
   return gulp.src(PATHS.javascript)
+    .pipe(cache('linting'))
     .pipe(jshint())
     .on('error', handleError)
     .pipe(jshint.reporter('jshint-stylish'));
@@ -33,5 +36,4 @@ gulp.task('lint', function () {
     'use strict';
     console.log(err.toString());
   }
-
 });
