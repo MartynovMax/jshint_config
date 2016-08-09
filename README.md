@@ -8,6 +8,8 @@ It will allow automatically watch your code and make the validation (JS & CSS) o
 #### [Install](#install)
 #### [Gulp configuration](#gulp-configuration)
 #### [Code styles](#code-styles)
+##### [JS styles](#js-styles)
+##### [CSS styles](#css-styles)
 
 
 # Install
@@ -36,11 +38,14 @@ You will see the warnings only for files which was changed.
 
 
 # Code styles
+## JS styles
 1. [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 2. [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml)
 3. [Felix's Node.js Style Guide](http://nodeguide.com/style.html)
 4. [Angular Style Guide](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md)
 
-
+## CSS styles
+1. [Airbnb CSS](https://github.com/airbnb/css)
+2. [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.xml)
 
 ### Dunice (c)
