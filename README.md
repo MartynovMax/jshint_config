@@ -8,8 +8,6 @@ It will allow automatically watch your code and make the validation (JS & CSS) o
 #### [Install](#install)
 #### [Gulp configuration](#gulp-configuration)
 #### [Code styles](#code-styles)
-##### [JS styles](#js-styles)
-##### [CSS styles](#css-styles)
 
 
 # Install
