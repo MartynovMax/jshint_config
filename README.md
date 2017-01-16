@@ -45,5 +45,3 @@ You will see the warnings only for files which was changed.
 ## CSS styles
 1. [Airbnb CSS](https://github.com/airbnb/css)
 2. [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.xml)
-
-### Dunice (c)
